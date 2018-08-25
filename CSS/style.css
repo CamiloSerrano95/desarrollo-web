@@ -1,0 +1,137 @@
+/* Configuracion inicial */
+body{
+    font: 15px Arial, Helvetica;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Configuracion para el header */
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 5px solid #76ff03;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #brand {
+    float: left;
+}
+
+header #brand  h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .actual a {
+    color: #76ff03;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #76ff03;
+    font-weight: bold;
+}
+
+#cabecera img {
+    width: 100%;
+    height: 400px;
+    border-bottom: 5px solid #000000;
+}
+
+/* Configuracion para las cajas */
+#info {
+    margin-top: 20px;
+}
+
+#info .caja {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#info .caja img {
+    width: 300px;
+	height: 350px;
+}
+
+/* Configuracion para el pie de pagina */
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 96.8%;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.footer-pages {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 96.8%;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Estilos para la pagina nosotros*/
+
+aside#lateral {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+.oscuro {
+    padding: 15px;
+    background-color: #000000;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+article#main {
+    float: left;
+    width: 65%;
+}
