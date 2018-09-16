@@ -123,6 +123,12 @@ aside#lateral {
     margin-top: 10px;
 }
 
+aside#lateral-izquierdo {
+    float: left;
+    width: 30%;
+    margin-top: 10px;
+}
+
 .oscuro {
     padding: 15px;
     background-color: #657b90;
@@ -131,8 +137,22 @@ aside#lateral {
     margin-bottom: 10px;
 }
 
+.claro {
+    padding: 15px;
+    background-color: #e6e6e6;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 article#main {
     float: left;
+    width: 65%;
+}
+
+article#main-izquierda {
+    margin-top: 19px;
+    float: right;
     width: 65%;
 }
 
@@ -163,7 +183,54 @@ input[type="submit"] {
     font-weight: bold;
 }
 
+input[type="radio"] {
+    width: 15px;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+}
+
 aside img {
     width: 60px;
 	height: 60px;
+}
+
+.label-registro {    
+    font-weight: bold;
+}
+
+.label-sexo {
+    top: 20px;
+}
+
+.input-registro {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+/*Diseño para la tabla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #314455;
+    color: white;
+}
+
+button {
+    background-color: #657b90;
+    color: #f8f6f6;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
 }
