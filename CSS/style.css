@@ -12,6 +12,12 @@ body{
     overflow: hidden;
 }
 
+.content-form {
+    width: 98%;
+    margin: auto;
+    overflow: hidden;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -125,7 +131,7 @@ aside#lateral {
 
 aside#lateral-izquierdo {
     float: left;
-    width: 30%;
+    width: 20%;
     margin-top: 10px;
 }
 
@@ -150,10 +156,10 @@ article#main {
     width: 65%;
 }
 
-article#main-izquierda {
+article#main-derecho {
     margin-top: 19px;
     float: right;
-    width: 65%;
+    width: 75%;
 }
 
 /* Estilos para la pagina servicios*/

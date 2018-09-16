@@ -30,12 +30,12 @@
     </header>
 
     <section id="nosotros">
-        <div class="content">
-            <article id="main-izquierda">
+        <div class="content-form">
+            <article id="main-derecho">
                 <ul id="servicios">
                     <li>
                         <h1>Quienes nos han visitado</h1>
-                        <table>
+                        <table id="tabla">
                             <thead>
                                 <tr>
                                     <th>Cedula</th>
@@ -58,7 +58,7 @@
             <aside id="lateral-izquierdo">
                 <div class="claro">
                     <h3>Dejanos tus datos</h3>
-                    <form action="">
+                    <form name="formulario">
                         <label class="label-registro">Cedula</label>
                         <input class="input-registro" type="number" id="identification" placeholder="Digite su cedula" required>
 
@@ -71,7 +71,7 @@
                         <label class="label-registro">Edad</label>
                         <input class="input-registro" type="number" id="age" placeholder="Digite su edad" required>
 
-                        <label class="label-registro" >Sexo</label>
+                        <label class="label-registro">Sexo</label>
                         <div id="sexo">
                             <label class="label-sexo">Masculino</label><input type="radio" name="sexo" id="mas" value="Masculino">
                             <label class="label-sexo">Femenino</label><input type="radio" name="sexo" id="fem" value="Femenino">
@@ -85,21 +85,23 @@
                         <input class="input-registro" type="email" id="email" placeholder="Digite su correo" required>
 
                         <label class="label-registro">Que servicio te interesa?</label>
-                        <select class="input-registro" name="select" id="tipo">
-                            <option value="SEDAN">Diseño Web</option>
-                            <option value="SALOON">Bases de datos</option>
-                            <option value="BERLINA">Servidores Linux</option>
-                            <option value="FORDOR">Android</option>
+                        <select class="input-registro" name="select" id="service">
+                            <option value="Diseño web">Diseño Web</option>
+                            <option value="Bases de datos">Bases de datos</option>
+                            <option value="Servidores Linux">Servidores Linux</option>
+                            <option value="Android">Android</option>
                         </select><br>
 
                         <label class="label-registro">Mas sobre ti</label>
-                        <textarea id="infomation" cols="10" rows="5" placeholder="Mas..."></textarea>
+                        <textarea id="info" cols="10" rows="5" placeholder="Mas..."></textarea>
 
                         <label class="label-registro">Te gustaria volver?</label>
-                        <label><input type="checkbox" id="cbox1" value="SI">SI</label>
-                        <label><input type="checkbox" id="cbox2" value="NO">NO</label>
+                        <br>
+                        <label><input type="checkbox" name="arrive" id="confi" value="SI">SI</label>&nbsp;
+                        <label><input type="checkbox" name="arrive" id="confi" value="NO">NO</label>
+
                         <br><br>
-                        <button class="btn" id="boton" type="reset" onclick="agregar()">Agregar</button>
+                        <button id="boton" type="reset">Agregar</button>
 
                     </form>
                 </div>
@@ -113,6 +115,8 @@
             <p>Made with &hearts; by Camilo Serrano; in Montería</p>
         </div>
     </footer>
+
+    <script src="../JS/bundle.js"></script>
 </body>
 
 </html>
